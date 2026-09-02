@@ -1,0 +1,39 @@
+PROJETO: WIKIBUSCA - CONSUMO DE API EXTERNA
+
+Objetivo:
+Consumir uma API externa da Wikipédia utilizando JavaScript.
+
+Estrutura:
+wiki_api_mobile/
+├── index.html
+├── style.css
+├── script.js
+└── LEIA-ME.txt
+
+Como executar:
+1. Extraia a pasta.
+2. Abra a pasta no VS Code.
+3. Abra index.html com Live Server.
+4. Digite um termo, por exemplo:
+   - Inteligência Artificial
+   - Python
+   - Minecraft
+   - Brasil
+   - Robótica
+5. Clique em Pesquisar.
+
+O que observar:
+- fetch() faz a requisição para a API.
+- resposta.json() converte a resposta recebida em JSON.
+- O programa lê título, resumo, imagem e ID do artigo.
+- Os dados recebidos da API são exibidos na interface.
+
+Fluxo:
+Usuário -> Aplicação -> API da Wikipédia -> JSON -> Aplicação
+
+Sugestões de desafios para os alunos:
+1. Trocar o texto do botão.
+2. Modificar a interface.
+3. Alterar a quantidade de caracteres do resumo.
+4. Exibir o ID da página.
+5. Pesquisar outro tema e observar o JSON pelo console.

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WikiBusca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="app">
+        <header class="topo">
+            <div class="icone">W</div>
+            <div>
+                <h1>WikiBusca</h1>
+                <p>Pesquise conteúdos da Wikipédia</p>
+            </div>
+        </header>
+
+        <section class="busca">
+            <label for="termo">O que você quer pesquisar?</label>
+
+            <div class="linha-busca">
+                <input
+                    type="text"
+                    id="termo"
+                    placeholder="Ex.: Inteligência Artificial"
+                    autocomplete="off"
+                >
+
+                <button id="btnPesquisar">
+                    Pesquisar
+                </button>
+            </div>
+
+            <p id="mensagem"></p>
+        </section>
+
+        <section class="resultado" id="resultado">
+            <img id="imagem" alt="Imagem do artigo">
+
+            <div class="conteudo">
+                <span class="categoria">WIKIPÉDIA</span>
+
+                <h2 id="titulo"></h2>
+
+                <p id="resumo"></p>
+
+                <a
+                    id="linkArtigo"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Ler artigo completo
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
